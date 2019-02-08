@@ -23,9 +23,13 @@ export class AppComponent {
     'Walk dog'
   ];
 
+  published = [
+    'Take Vitamins'
+  ];
+
   drop(event: CdkDragDrop<string[]>) {
     console.info("Here is the event: ", event);
-    
+
     if (event.previousContainer === event.container) {
       moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
     } else {
