@@ -1,5 +1,6 @@
 # PocAngularDragAndDrop
 
+This is to help understanding of how Drag and Drop works in Angular.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
 ## Development server
